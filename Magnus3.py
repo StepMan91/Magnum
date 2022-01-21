@@ -48,7 +48,7 @@ print(f'Vertex to join with a red line {corns[3]} {corns[0]}, projection in a wh
 # real_width = np.linalg.norm(corns[1] - corns[3])
 # real_length = np.linalg.norm(cornsp[3] - corns[0])
 
-# Drawings
+# Drawings what what ?
 for contour in contours:
     x, y, w, h = cv2.boundingRect(contour)
     # cv2.rectangle(blank_image, (x, y), (x+w, y+h), (0, 255, 0), 1)  # bounding box
